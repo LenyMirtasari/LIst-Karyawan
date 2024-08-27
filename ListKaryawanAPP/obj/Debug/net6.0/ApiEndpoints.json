@@ -1,0 +1,106 @@
+[
+  {
+    "ContainingType": "ListKaryawanAPI.Controllers.KaryawanController",
+    "Method": "DataKaryawan",
+    "RelativePath": "api/Karyawan/DataKaryawan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ListKaryawanAPI.Controllers.KaryawanController",
+    "Method": "deleteData",
+    "RelativePath": "api/Karyawan/deleteData/{req}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ListKaryawanAPI.Controllers.KaryawanController",
+    "Method": "GetData",
+    "RelativePath": "api/Karyawan/GetData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ListKaryawanAPI.Controllers.KaryawanController",
+    "Method": "InsertData",
+    "RelativePath": "api/Karyawan/InsertData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "ListKaryawanAPI.ViewModels.DeleteVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ListKaryawanAPI.Controllers.KaryawanController",
+    "Method": "UpdateData",
+    "RelativePath": "api/Karyawan/UpdateData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "ListKaryawanAPI.ViewModels.UpdateVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ListKaryawanAPI.Controllers.KaryawanController",
+    "Method": "ViewUpdate",
+    "RelativePath": "api/Karyawan/ViewUpdate/{req}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OrderInbox.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ListKaryawanAPI.WeatherForecast, ListKaryawanAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

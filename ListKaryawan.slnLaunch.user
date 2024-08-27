@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "ListKaryawanAPI\\ListKaryawanAPI.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "IIS Express"
+      },
+      {
+        "Name": "ListKaryawanAPP\\ListKaryawanAPP.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "IIS Express"
+      }
+    ]
+  }
+]
